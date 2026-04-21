@@ -5,7 +5,7 @@ from matplotlib.ticker import FuncFormatter
 import pandas as pd
 import streamlit as st
 
-
+st.write("APP START")
 st.set_page_config(
     page_title="E-commerce Data Analysis",
     layout="wide",
