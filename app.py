@@ -1,5 +1,5 @@
 import os
-import insurance_sql
+#import insurance_sql
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 import pandas as pd
@@ -244,8 +244,9 @@ st.sidebar.markdown("---")
 
 
 if section == "SQL Projects":
-    insurance_sql.show()
-
+    st.title("SQL Projects")
+    st.info("SQL section coming soon.")   
+    
 elif page == "Home":
     st.sidebar.caption("Contacts: german.rmnk@gmail.com")
 
