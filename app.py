@@ -1,6 +1,6 @@
 import os
 import matplotlib.pyplot as plt
-from matplotlib.ticker import FuncFormatterpython -m venv venv
+from matplotlib.ticker import FuncFormatter
 import pandas as pd
 import streamlit as st
 
