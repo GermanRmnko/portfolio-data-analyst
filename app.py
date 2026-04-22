@@ -1,6 +1,6 @@
 import os
 import matplotlib.pyplot as plt
-from matplotlib.ticker import FuncFormatter
+from matplotlib.ticker import FuncFormatterpython -m venv venv
 import pandas as pd
 import streamlit as st
 
@@ -1240,3 +1240,17 @@ elif page == "Next Step With Real Data":
         """,
         unsafe_allow_html=True
     )
+elif page == "Dashboard Overview":
+    st.title("Power BI")
+    st.markdown("## Dashboard Overview")
+    st.info("Power BI dashboard coming soon.")
+
+elif page == "Key Metrics":
+    st.title("Power BI")
+    st.markdown("## Key Metrics")
+    st.info("Power BI metrics section coming soon.")
+
+elif page == "Insights":
+    st.title("Power BI")
+    st.markdown("## Insights")
+    st.info("Power BI insights section coming soon.")
